@@ -1,0 +1,5 @@
+@host = localhost:8080
+
+GET http://{{host}}/api/v1/secured/ping HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Indqb2pmIiwiZW1haWwiOiJ0aWtob25AZW1haWwuY29tIiwiZXhwIjoxNjcwNzYxMzM3fQ.-X8qxJUpd01JJd2KdYbIrrOOHNG1ucJ368ZTt_ulK_o
